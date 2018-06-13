@@ -1,0 +1,29 @@
+{
+  "name": "webpwa",
+  "version": "1.0.0",
+  "description": "pwa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon --watch src server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anirbansaha77/webpwa.git"
+  },
+  "author": "Anirban Saha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anirbansaha77/webpwa/issues"
+  },
+  "homepage": "https://github.com/anirbansaha77/webpwa#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "nodemon": "^1.17.5",
+    "webpack": "^4.11.1"
+  }
+}
